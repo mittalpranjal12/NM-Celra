@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(189, 209, 206);
+}
+
+
+/*blog heading*/
+h1{
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/*blog section*/
+.blog-sections{
+    margin-top: 4%;
+}
+
+.border-primary{
+    max-width: 35rem;
+}
+
+/*footer*/
+
