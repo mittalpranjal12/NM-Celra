@@ -18,11 +18,78 @@
   <!-------------------------------Header------------------------------>
   
   <header-component></header-component>
-  
+ 
   <!--end of header-->
+  <div class="main-slide">
+    <div class="intro">
+      
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#Vision"><h2 style="text-align: center;"><b>Vision</b></h2></a><br>
+            </div>
+            <div class="carousel-item auto-scroll">
+              <a href="#Vision"><h2 style="text-align: center;"><b>Mission</b></h2></a>
+            </div>
+            <div class="carousel-item auto-scroll">
+              <a href="#About-Us"><h2 style="text-align: center;"><b>About Us</b></h2></a>
+            </div>
+          </div>
+          <br>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   
+  <hr id="Vision">
+  <!--Carousel-->
+  <!-------------------------------------Introduction---------------------------------------->
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="box hvr-grow">
+          <div class="vision-text">
+            <h2 style="text-align: center;"><b>Vision</b></h2><br>
+            <p>Through proactive visualisation and actualisation of policy reform and by working in tandem with and against existing environmental policies. Niti Manthan CELRA strives to promote the unity of national and regional policy making.</p>
+            <br>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="box hvr-grow">
+          <div class="mission-text">
+          <h2 style="text-align: center;"><b>Mission</b></h2>
+          <ul style="list-style: none;">
+            <li><p>To ensure that the general public has easy access to environmental policy and associated resources.</p></li>
+            <li><p>To bridge the gap between academia and policy implementation at grassroots levels, by creating opportunities for visible change outside legal research and academic progress.</p></li>
+            <li><p>To shift the focus to actionable change from research oriented discourse.</p></li>
+            <li><p>To expand the scope of inclusivity in environmental policy making and include student opinion.</p></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!--intro ends-->
   <!----------------------------- Our team Section ---------------------------->
-  <section id="team" class="team content-section">
+  <section id="About-Us" class="team content-section">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
@@ -144,12 +211,12 @@
         
         <div class="container">
           <div class="row">
-            <div class="advisory-1 col-md-6">
-              <div class="advisory team-member">
+            <div class="last-row col-md-4">
+              <div class="team-member">
                 <figure>
                   <img src="../images/vidya.jpeg" alt="" class="img-responsive">
                   <figcaption>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+                    <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
                     <ul>
                       <li><a href="" class="icons"><i class="fa fa-facebook fa-2x"></i></a></li>
                       <li><a href="" class="icons"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -158,14 +225,14 @@
                   </figcaption>
                 </figure>
                 <h4 class="heading">Vidya Ann Jacob</h4>
-                <p>Creative Director</p>
+                <p>Web Developer</p>
               </div><!-- /.team-member-->
-            </div><!-- /.col-md-6 -->
+            </div><!-- /.col-md-4 -->
             
-            <div class="col-md-6">
-              <div class="advisory team-member">
+            <div class="last-row col-md-4">
+              <div class="team-member">
                 <figure>
-                  <img src="../images/Subin.jpg" alt="" class="img-responsive">
+                  <img src="../images/subin.jpg" alt="" class="img-responsive" style="object-fit: scale-down;">
                   <figcaption>
                     <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
                     <ul>
@@ -178,7 +245,8 @@
                 <h4 class="heading">Dr. Manjeri Subin Sunder Raj</h4>
                 <p>UI/UX Designer</p>
               </div><!-- /.team-member-->
-            </div><!-- /.col-md-6 -->
+            </div><!-- /.col-md-4 -->
+
             
           </div><!-- /.row -->
         </div><!-- /.container -->

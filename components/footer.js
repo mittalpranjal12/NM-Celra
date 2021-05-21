@@ -45,25 +45,8 @@ ul {
   float: left;
 }
 
-.links h3{
-  margin-bottom: 40px;
-  position: relative;
-}
-
-.links h3::before{
-  position: absolute;
-  left: 0;
-  bottom: -15px;
-  height: 2px;
-  width: 50px;
-  content: "";
-  background:  #1c6812;
-}
-
-.footer-widget-heading h3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
+.footer-widget-heading{
+  text-shadow: 2px 2px;
 }
 
 .footer-widget ul li {
@@ -91,22 +74,6 @@ ul {
   margin-right: 15px;
 }
 
-.follow h3{
-  margin-bottom: 40px;
-  position: relative;
-}
-
-.follow h3::before{
-  /* position: inherit; */
-  /* padding-right: 200px; */
-  float: right;
-  /* left: 5rem;
-  bottom: -15px; */
-  content: "";
-  background: #1c6812;
-  height: 2px;
-  width: 50px;
-}
 
 .instagram-bg{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -119,11 +86,10 @@ ul {
 }
 .linkedin-bg{
   color: #fff;
-  font-size: 30px;
-  height: 40px;
-  width: 40px;
+  font-size: 45px;
+  height: 45px;
+  width: 50px;
   text-align: center;
-  line-height: 50px;
   border-radius: 20%;
   background: #0e76a8;
 }
@@ -162,69 +128,69 @@ ul {
         <!-------------------------Contact us------------------------------>
         <section id="Contact-Us">
         <footer class="footer-section">
-            <div class="container" style="padding-top: 1em;">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                        <div class="footer-logo">
-                            <a href="#"><img src="../images/logo.png" class="img-fluid-1" alt="logo"></a><br><br>
-                            <a href="https://nitimanthan.in/"><img src="../images/logo_tiny.png" class="img-fluid-2" alt="logo"></a>
-                            <p><a href="https://nitimanthan.in/" style="text-decoration: none; color:black;">Niti Manthan</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading links">
-                                <h3>Useful Links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="../index.html">Home</a></li>
-                                <li><a href="../index/team-section.html">About us</a></li>
-                                <li><a href="../index.html#Blog-Media">Blog & Media</a></li>
-                                <li><a href="../index.html#News">Latest News</a></li>
-                            </ul>
-                        </div>
-                        <!-- <div class="footer-widget-social"> -->
-                            <div class="footer-social-icon" >
-                                <div class="footer-widget-heading follow">
-                                    <h3>Follow us</h3>
-                                </div>
-                                
-                                <a href="https://instagram.com/nitimanthan?igshid=zwcvvix2ibw"><i class="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://www.linkedin.com/company/nm-celra"><i class="fab fa-linkedin-in linkedin-bg"></i></a><br><br>
-                                <button type="button" class="btn btn-info btn-sm subscribe" data-toggle="modal" data-target="#myModal">
-                                    <p style="margin-top: 0;margin-bottom:0;"><b>Subscribe to our Newsletter</b></p>
-                                </button>
-                            </div>
-                        <!-- </div> -->
-                        
-                    </div>
+          <div class="container" style="padding-top: 1em;">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-logo">
+                  <!-- <a href="#"><img src="../images/logo.png" class="img-fluid-1" alt="logo"></a><br><br> -->
+                  <a href="https://nitimanthan.in/"><img src="../images/logo_tiny.png" class="img-fluid-2" alt="logo"></a>
+                  <p><a href="https://nitimanthan.in/" style="text-decoration: none; color:black;">Niti Manthan</a></p>
                 </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading links">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index/team-section.html">About us</a></li>
+                    <li><a href="../index.html#Blog-Media">Blog & Media</a></li>
+                    <li><a href="../index.html#News">Latest News</a></li>
+                  </ul>
+                </div>
+                <!-- <div class="footer-widget-social"> -->
+                  <div class="footer-social-icon" >
+                    <div class="footer-widget-heading follow">
+                      <h3>Follow us</h3>
+                    </div>
+                    
+                    <a href="https://instagram.com/nitimanthan?igshid=zwcvvix2ibw"><i class="fab fa-instagram instagram-bg"></i></a>
+                    <a href="https://www.linkedin.com/company/nm-celra"><i class="fab fa-linkedin-in linkedin-bg"></i></a><br><br>
+                    <button type="button" class="btn btn-outline-success btn-sm subscribe" data-toggle="modal" data-target="#myModal">
+                      <p style="margin-top: 0;margin-bottom:0;"><b>Subscribe to our Newsletter</b></p>
+                    </button>
+                  </div>
+                  <!-- </div> -->
+                  
+                </div>
+              </div>
             </div>
             
             <div class="copyright-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
-                            <div class="copyright-text">
-                                <p>Copyright &copy; 2021, All Right Reserved <a href="#">NM CELRA</a></p>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
+                    <div class="copyright-text">
+                      <p>Copyright &copy; 2021, All Right Reserved <a href="#">NM CELRA</a></p>
                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
+                    <div class="footer-menu">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </footer>
-    </section>
+          </footer>
+        </section>
         `;
     }
 }
