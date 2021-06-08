@@ -1,94 +1,75 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
-/* html,
-body {
-    width: 100%;
-    height: 100%;
-} */
 
-/* .our-team{
-    margin-top: 10%;
-    font-size: 3rem;
-} */
+body{
+    font-family: 'EB Garamond', serif;
+  }
+  
+  @media (max-width: 992px){
+    .about-us{
+        font-size: 10px;
+    }
+    
+    .vision{
+        font-size: 15px;
+    }
 
-
-@media screen and (max-width: 1000px){
-    .carousel-item h2{
+    .mission{
         font-size: 10px;
     }
 }
 .main-slide{
-    background-color: #C9D439;
+    background-color: #05480c;
 }
 
 .carousel-item{
-    top: 25%;
+    color: #fff;
+    top: 10%;
 }
 .carousel-item a{
-    
+    color: #fff;
     text-decoration: none;
 }
-.carousel-item h2{
+
+.about-us{
     font-size: 200px;
-    color: #fff;
+}
+
+.carousel-item h5{
+    text-align: center;
+    font-size: 80px;
+}
+
+.carousel-item p{
+    text-align: justify;
+
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 3%;
+}
+.mission{
+    font-size: 27px;
+}
+
+.vision{
+    font-size: 30px;
 }
 .carousel-inner{
-    
-    height: 600px;
-    /* background-position: center; */
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
     background-repeat: no-repeat;
       background-size: 100% 100%; 
     /* background-image: url(../images/team-bg.png); */
-}
-/**********************vision***************************/
-
-
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(63, 163, 180);
-    margin: 20px 0;
-    padding: 10px;
-    width: 100%;
-    min-height: 300px;
-    border: 2px #000 solid;
-    color: #fff;
-  }
-
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    background: rgb(121, 180, 190);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    box-shadow: 2px 2px 2px #000;
-  }
-
-.vision-text, .mission-text{
-    padding: 3%;
 }
 
 /**************************************team*********************************/
 .heading {
     margin: 0 0 20px 0;
     text-transform: none;
-    color: rgba(254, 82, 76, 1);
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #05480c;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -125,8 +106,10 @@ body {
 }
 
 .team-member figure img {
-    height: 250px;
-    min-width: 60%;
+    height: 270px;
+    width: 260px;
+    border-radius: 1rem;
+    /* min-width: 65%; */
 }
 
 .team-member figcaption p {
@@ -182,7 +165,7 @@ body {
 .team-member figure:hover figcaption {
     visibility: visible;
     color: #fff;
-    background: rgb(144, 214, 231);
+    background: #e1ab01;
     /* Primary color, can be changed via colors.css */
     
     height: 100%;

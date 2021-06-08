@@ -53,7 +53,7 @@ class Header extends HTMLElement {
             padding-right: 5px;
           }
           .sb-example-3{
-            padding-right: 10px;
+            padding-right: 0px;
           }
           
           .sb-example-3 .search__title {

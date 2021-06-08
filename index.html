@@ -36,6 +36,9 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>NM CELRA</title>
   
   <link rel="stylesheet" href="./css/new.css">
@@ -49,6 +52,9 @@
     };
   </script>
   <style>
+    body{
+      font-family: 'EB Garamond', serif;
+    }
     .navbar a{
       padding: 3px;
       text-align: center;
@@ -62,57 +68,58 @@
       padding-right: 5px;
     }
     
-.sb-example-3{
-  padding-right: 10px;
-}
-
-.sb-example-3 .search__title {
-  font-size: 22px;
-  font-weight: 900;
-  text-align: center;
-  color: #ff8b88;
-}
-
-.sb-example-3 .search__input {
-  width: 100%;
-  padding: 10px 20px;
-
-  background-color: transparent;
-  transition: transform 250ms ease-in-out;
-  font-size: 14px;
-  line-height: 18px;
-
-  color: #575756;
-  background-color: transparent;
-/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
-
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  background-position: 95% center;
-  border-radius: 50px;
-  border: 1px solid #575756;
-  transition: all 250ms ease-in-out;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-}
-
-.sb-example-3 .search__input::placeholder {
+    .sb-example-3{
+      padding-right: 0px;
+    }
+    
+    .sb-example-3 .search__title {
+      font-size: 22px;
+      font-weight: 900;
+      text-align: center;
+      color: #ff8b88;
+      font-family: 'EB Garamond', serif;
+    }
+    
+    .sb-example-3 .search__input {
+      width: 100%;
+      padding: 10px 20px;
+      
+      background-color: transparent;
+      transition: transform 250ms ease-in-out;
+      font-size: 14px;
+      line-height: 18px;
+      
+      color: #575756;
+      background-color: transparent;
+      /*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+      
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      background-position: 95% center;
+      border-radius: 50px;
+      border: 1px solid #575756;
+      transition: all 250ms ease-in-out;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+    }
+    
+    .sb-example-3 .search__input::placeholder {
       color: rgba(87, 87, 86, 0.8);
       text-transform: uppercase;
       letter-spacing: 1.5px;
-  }
-
-.sb-example-3 .search__input:hover,
-  .search__input:focus {
+    }
+    
+    .sb-example-3 .search__input:hover,
+    .search__input:focus {
       padding: 12px 0;
       outline: 0;
       border: 1px solid transparent;
       border-bottom: 1px solid #575756;
       border-radius: 0;
       background-position: 100% center;
-  }
-
+    }
+    
   </style>
 </head>
 <body>
@@ -130,25 +137,25 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
           <div class="form-group">
             <input type="email" class="form-control" placeholder="Email Address">
           </div>
-          <button type="submit" class="btn btn-primary subscribe-button">Subscribe</button>
+          <button type="submit" class="btn btn-light subscribe-button">Subscribe</button>
         </form>
-        <button class="buttonStyle" id="button">Close</button>
+        <button class="btn btn-light buttonStyle" id="button">Close</button>
       </div>
     </div>
   </div>
   
   <!-- ========================= SECTION CONTENT ========================= -->
-    
-    <nav class="navbar navbar-light navbar-expand-lg sticky-top overlay" id="navOverlay" style="background-color: white;">
-      <!-- <div style="background-color: antiquewhite;"> -->
+  
+  <nav class="navbar navbar-light navbar-expand-lg sticky-top overlay" id="navOverlay" style="background-color: white;">
+    <!-- <div style="background-color: antiquewhite;"> -->
       <div class="container-fluid">
         <div>
           <a href="./index.html"><img src="./images/logo.png" alt="Celra Logo" class="img-responsive celra"></a>
         </div>
-          <div class="text">
-            <h2 class="nm-celra">Niti Manthan</h2>
-            <h3 class="nm-celra-1">Centre for Environmental Law, Research and Action</h3>
-          </div>
+        <div class="text">
+          <h2 class="nm-celra">Niti Manthan</h2>
+          <h3 class="nm-celra-1">Centre for Environmental Law, Research and Action</h3>
+        </div>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -194,253 +201,254 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
                 <input class="search__input" type="text" placeholder="Search">
               </div>
             </div>
+          </div>
         </div>
-      </div>
-    </nav>
-        <!---------------------------------------Events section-------------------------------------->
-        <div class="header-content" id="Events" style="background-image: url(./images/bg.png);">
-          <div class="main">
-            <section>
-              <div class="events">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm" style="padding:5px;">
-                      <div class="card" style="width: 18rem;">
-                        <img src="./images/event-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm" style="padding:5px;">
-                      <div class="card" style="width: 18rem;">
-                        <img src="./images/event-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm" style="padding:5px;">
-                      <div class="card" style="width: 18rem;">
-                        <img src="./images/event-3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
-                        </div>
+      </nav>
+      <!---------------------------------------Events section-------------------------------------->
+      <div class="header-content" id="Events" style="background-image: url(./images/bg.png);">
+        <div class="main">
+          <section>
+            <div class="events">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm" style="padding:5px;">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/event-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
                       </div>
                     </div>
                   </div>
-                  <br>
-                  <a href="./index/Events.html"><button class="btn btn-outline event-button" style="float: right;">All Events</button></a>
+                  <div class="col-sm" style="padding:5px;">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/event-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm" style="padding:5px;">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/event-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#"><button class="btn btn-outline event-button">Go somewhere</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <a href="./index/Events.html"><button class="btn btn-outline event-button" style="float: right;">All Events</button></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- </div> -->
+      </div><!-- container //  -->
+    </div>
+    <!--Events end-->
+    
+    
+    
+    <hr id="Blog-Media">
+    <br><br>
+    <!--intro ends-->
+    <!-----------------------------Blog & Media----------------------------------------------->
+    
+    <div class="container blog-media-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 media-changes">
+          <div class="container">
+            <div class="row row-flex media-row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="./index/Media.html" style="text-decoration:none; "><h3 class="media">Media</h3></a>
+                <div class="media-content">
+                  <h5 class="media-heading">Heading-1</h5>
+                  <a href="" class="media-content-body" id="media-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
+                  <p class="media-head-date media-content-body">Head-1</p>
+                  <p class="media-head-date media-content-body">Date</p>
+                </div>
+                <hr class="media-line">
+                
+                <div class="media-content">
+                  <h5 class="media-heading">Heading-2</h5>
+                  <a href="" class="media-content-body" id="media-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
+                  <p class="media-head-date media-content-body" >Head-2</p>
+                  <p class="media-head-date media-content-body">Date</p>
                 </div>
               </div>
-            </section>
+            </div>
           </div>
-          <!-- </div> -->
-        </div><!-- container //  -->
-      </div>
-        <!--Events end-->
+        </div>
         
-
         
-        <hr id="Blog-Media">
-        <br><br>
-        <!--intro ends-->
-        <!-----------------------------Blog & Media----------------------------------------------->
         
-        <div class="container blog-media-section">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 media-changes">
-              <div class="container">
-                <div class="row row-flex media-row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="./index/Media.html" style="text-decoration:none; "><h3 class="media">Media</h3></a>
-                    <div class="media-content">
-                      <h5 class="media-heading">Heading-1</h5>
-                      <a href="" class="media-content-body" id="media-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
-                      <p class="media-head-date media-content-body">Head-1</p>
-                      <p class="media-head-date media-content-body">Date</p>
+        
+        <div class="col-lg-6 col-md-6 col-sm-12 blog-column">
+          <div class="container">
+            <div class="row row-flex blog-row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="./index/Blog.html" style="text-decoration:none; "><h3 class="blog">Blog</h3></a>
+                <div class="blog_post">
+                  <div class="blog-content">
+                    <div class="blog-item-date">
+                      <p style="color: white;">
+                        <span>11</span>
+                        December 2020
+                      </p>
                     </div>
-                    <hr class="media-line">
-                    
-                    <div class="media-content">
-                      <h5 class="media-heading">Heading-2</h5>
-                      <a href="" class="media-content-body" id="media-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
-                      <p class="media-head-date media-content-body" >Head-2</p>
-                      <p class="media-head-date media-content-body">Date</p>
+                    <div class="post__details">
+                      <h5 class="blog-heading blog-content-body">Heading-1</h5>
+                      <a href="" class="blog-content-body" id="blog-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
+                      <p class="blog-head blog-content-body">Head-1</p>
+                    </div>
+                  </div>
+                  
+                  <hr class="blog-line">
+                  <div class="blog-content">
+                    <div class="blog-item-date">
+                      <p style="color: white;">
+                        <span>11</span>
+                        December 2020
+                      </p>
+                    </div>
+                    <div class="post__details">
+                      <h5 class="blog-heading blog-content-body">Heading-1</h5>
+                      <a href="" class="blog-content-body" id="blog-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
+                      <p class="blog-head blog-content-body">Head-1</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
-            
-            
-            
-            <div class="col-lg-6 col-md-6 col-sm-12 blog-column">
-              <div class="container">
-                <div class="row row-flex blog-row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="./index/Blog.html" style="text-decoration:none; "><h3 class="blog">Blog</h3></a>
-                    <div class="blog_post">
-                      <div class="blog-content">
-                        <div class="blog-item-date">
-                          <p style="color: white;">
-                            <span>11</span>
-                            December 2020
-                          </p>
-                        </div>
-                        <div class="post__details">
-                          <h5 class="blog-heading blog-content-body">Heading-1</h5>
-                          <a href="" class="blog-content-body" id="blog-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
-                          <p class="blog-head blog-content-body">Head-1</p>
-                        </div>
-                      </div>
-                      
-                      <hr class="blog-line">
-                      <div class="blog-content">
-                        <div class="blog-item-date">
-                          <p style="color: white;">
-                            <span>11</span>
-                            December 2020
-                          </p>
-                        </div>
-                        <div class="post__details">
-                          <h5 class="blog-heading blog-content-body">Heading-1</h5>
-                          <a href="" class="blog-content-body" id="blog-content-hover">Main ContentThe Equal Height Rows Designers Crave - Main ContentThe Equal Height Rows Designers Crave</a>
-                          <p class="blog-head blog-content-body">Head-1</p>
-                        </div>
-                      </div>
-                    </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Blog ends-->
+    <hr>
+    <!-- <br><br> -->
+    <!------------------------News------------------------------------>
+    
+    <div id="News" class="container">
+      <a href="./index/News.html" style="text-decoration:none;"><h1 style="text-align: center; color: green;">News</h1></a>
+      <div class="row row-flex">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="content-img">
+            <img src="./images/climateJustice_JoeBrusky.png" alt="Can not Display" class="imp-responsive news-img" style="height: 100%; width:100%;"/>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="content">
+            <h3>Welcome to Yoga fitness club</h3>
+            <p>This is free template. only for the practices.This is free template. only for the practices </a></p>
+            <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
+          </div>
+          <div class="content">
+            <h3>Welcome to Yoga fitness club</h3>
+            <p>This is free template. only for the practices </a></p>
+            <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
+          </div>
+          <div class="content">
+            <h3>Welcome to Yoga fitness club</h3>
+            <p>This is free template. only for the practices </a></p>
+            <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <hr>
+    
+    <!-------------------------Contact us------------------------------>
+    <section id="Contact-Us">
+      <footer class="footer-section">
+        <!-- <div class="container" style="padding-top: 1em;"> -->
+          <div class="row contact-us" style="--bs-gutter-x: 0rem;">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="footer-logo">
+                <a href="https://nitimanthan.in/"><img src="./images/logo_tiny.png" class="img-fluid-1" alt="logo"></a>
+                <p><a href="https://nitimanthan.in/" style="text-decoration: none; color:black;">Niti Manthan</a></p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="footer-widget">
+                <div class="footer-widget-heading links">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./index/team-section.html">About us</a></li>
+                  <li><a href="./index.html#Blog-Media">Blog & Media</a></li>
+                  <li><a href="./index.html#News">Latest News</a></li>
+                </ul>
+              </div>
+              <!-- <div class="footer-widget-social"> -->
+                <div class="footer-social-icon" >
+                  <div class="footer-widget-heading follow">
+                    <h3>Follow us</h3>
                   </div>
+                  <a id="instagram" href="https://instagram.com/nitimanthan?igshid=zwcvvix2ibw" target="_blank">
+                    <i id="logo"></i>
+                  </a>
+                  
+                  <a class="linkedin-bg" href="https://www.linkedin.com/company/nm-celra"><i class="fa fa-linkedin-square" style="font-size:48px;color:#0e76a8"></i></a><br><br>
+                  <button type="button" class="btn btn-outline-success btn-sm subscribe" data-toggle="modal" data-target="#myModal">
+                    <p style="margin-top: 0;margin-bottom:0;"><b>Subscribe to our Newsletter</b></p>
+                  </button>
                 </div>
                 <!-- </div> -->
+                
               </div>
             </div>
           </div>
-        </div>
-        <!--Blog ends-->
-        <hr>
-        <!-- <br><br> -->
-        <!------------------------News------------------------------------>
-        
-        <div id="News" class="container">
-          <a href="./index/News.html" style="text-decoration:none;"><h1 style="text-align: center; color: green;">News</h1></a>
-          <div class="row row-flex">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div class="content-img">
-                <img src="./images/climateJustice_JoeBrusky.png" alt="Can not Display" class="imp-responsive news-img" style="height: 100%; width:100%;"/>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div class="content">
-                <h3>Welcome to Yoga fitness club</h3>
-                <p>This is free template. only for the practices.This is free template. only for the practices </a></p>
-                <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
-              </div>
-              <div class="content">
-                <h3>Welcome to Yoga fitness club</h3>
-                <p>This is free template. only for the practices </a></p>
-                <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
-              </div>
-              <div class="content">
-                <h3>Welcome to Yoga fitness club</h3>
-                <p>This is free template. only for the practices </a></p>
-                <a href="#" class="news-btn-hover"><button class="btn btn-sm btn-primary news-button">Read-More</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
-        <hr>
-        
-        <!-------------------------Contact us------------------------------>
-        <section id="Contact-Us">
-          <footer class="footer-section">
-            <div class="container" style="padding-top: 1em;">
+          
+          <div class="copyright-area">
+            <div class="container">
               <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="footer-logo">
-                    <!-- <a href="#"><img src="./images/logo.png" class="img-fluid-1" alt="logo"></a><br><br> -->
-                    <a href="https://nitimanthan.in/"><img src="./images/logo_tiny.png" class="img-fluid-2" alt="logo"></a>
-                    <p><a href="https://nitimanthan.in/" style="text-decoration: none; color:black;">Niti Manthan</a></p>
+                <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
+                  <div class="copyright-text">
+                    <p>Copyright &copy; 2021, All Right Reserved <a href="#">NM CELRA</a></p>
                   </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="footer-widget">
-                    <div class="footer-widget-heading links">
-                      <h3>Useful Links</h3>
-                    </div>
+                <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
+                  <div class="footer-menu">
                     <ul>
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./index/team-section.html">About us</a></li>
-                      <li><a href="./index.html#Blog-Media">Blog & Media</a></li>
-                      <li><a href="./index.html#News">Latest News</a></li>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Policy</a></li>
+                      <li><a href="#">Contact</a></li>
                     </ul>
                   </div>
-                  <!-- <div class="footer-widget-social"> -->
-                    <div class="footer-social-icon" >
-                      <div class="footer-widget-heading follow">
-                        <h3>Follow us</h3>
-                      </div>
-                      
-                      <a href="https://instagram.com/nitimanthan?igshid=zwcvvix2ibw"><i class="fab fa-instagram instagram-bg"></i></a>
-                      <a href="https://www.linkedin.com/company/nm-celra"><i class="fab fa-linkedin-in linkedin-bg"></i></a><br><br>
-                      <button type="button" class="btn btn-outline-success btn-sm subscribe" data-toggle="modal" data-target="#myModal">
-                        <p style="margin-top: 0;margin-bottom:0;"><b>Subscribe to our Newsletter</b></p>
-                      </button>
-                    </div>
-                    <!-- </div> -->
-                    
-                  </div>
                 </div>
               </div>
-              
-              <div class="copyright-area">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
-                      <div class="copyright-text">
-                        <p>Copyright &copy; 2021, All Right Reserved <a href="#">NM CELRA</a></p>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-sm-12 col-md-6">
-                      <div class="footer-menu">
-                        <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">Terms</a></li>
-                          <li><a href="#">Privacy</a></li>
-                          <li><a href="#">Policy</a></li>
-                          <li><a href="#">Contact</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </section>
-          
-          <!-- Optional JavaScript; choose one of the two! -->
-          
-          <!-- Option 1: Bootstrap Bundle with Popper -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-          <!--   Core JS Files   -->
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-          <!-- Option 2: Separate Popper and Bootstrap JS -->
-          <!--
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-          -->
-        </body>
-        </html>
-        
-        
-        
+            </div>
+          <!-- </div> -->
+        </footer>
+      </section>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
+      
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <!--   Core JS Files   -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+      -->
+    </body>
+    </html>
+    
+    
+    
